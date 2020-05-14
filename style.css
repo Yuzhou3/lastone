@@ -1,0 +1,366 @@
+*
+
+{
+	margin: 0;
+	padding:0;
+}
+	@font-face{
+		font-family: "pixelfont";
+		src:url("9801-qMy5.ttf");
+
+	}
+
+	body{
+		box-sizing: border-box;
+	}
+
+	#tulip{
+		width: 200px;
+		position: absolute;
+		top: 5%;
+		left: 5%;
+	}
+
+	.catalog{
+		font-family: "pixelfont";
+		position: fixed;
+		top: 40%;
+		left: 5%;
+
+	}
+	a {
+		text-decoration: none;
+		color: black;
+		cursor: default;
+		line-height: 2;
+	}
+	
+	.scroll{
+		margin-bottom: 10%;
+
+	}
+	.scroll:hover{
+		text-decoration: underline;
+		cursor: default;
+	}
+
+	.text{
+		margin: 0;
+		font-family: "pixelfont";
+		position: fixed;
+		top: 48.5%;
+		left: 5%;
+		width: 200px;
+		height: 100px;
+		margin-top: 10px;
+
+	}
+	.text:hover{
+		text-decoration: underline;
+		cursor: default;
+
+	}
+
+	#QA{
+		position: absolute;
+		top: 30px;
+		left: 60%;
+		display: none;
+	}
+	.text:hover #QA{
+		display: block;
+	}
+
+	.topic{
+		text-align: right;
+		font-size: 12em;
+		font-family: "pixelfont";
+		color: rgba(72, 200, 69, 1);
+		position: absolute;
+		left: 100vw;
+		animation: slide 2s forwards;
+	}
+
+	@keyframes slide{
+		from{
+		
+		position: absolute;
+		left: 100vw;
+		}
+		to{
+		position: absolute;
+		left: 33.5vw;
+		}
+	}
+
+	.QA{
+		display: none;
+	}
+
+	#profile{
+		width: 100px;
+		position: absolute;
+		top: 1300px;
+		left: 50vw;
+	}
+
+	.bio{
+		width: 300px;
+		font-size: 1.8em;
+		font-family: "pixelfont";
+		position: absolute;
+		top: 1300px;
+		left: 60vw;
+	}
+
+	.b1{
+		opacity: 30%;
+		position: absolute;
+		top: 1400px;
+		width: 1450px;
+		z-index: -1;
+
+
+	}
+
+ .mySlides {
+        display: none;
+      }
+      img {
+        vertical-align: middle;
+      }
+      .slideshow-container {
+        max-width: 500px;
+        position: relative;
+        margin: auto;
+        top: 2400px;
+        
+      }
+
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+  
+
+      .numbertext {
+        color: black;
+        font-family: "pixelfont";
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+   
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #999999;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        position: relative;
+        top: 2400px;
+      }
+
+      .active,
+      .dot:hover {
+        background-color: #111111;
+      }
+
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      @-webkit-keyframes fade {
+        from {
+          opacity: .4;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      @keyframes fade {
+        from {
+          opacity: .4;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      .b2{
+		opacity: 30%;
+		position: absolute;
+		top: 3500px;
+		width: 1450px;
+		z-index: -1;
+
+
+	}
+
+
+
+	.box_one{
+		width: 1000px;
+		position: absolute;
+		left: 50vw;
+		top: 3650px;
+		transform: translateX(-50%);		
+		font-size: 1.8em;
+		font-family: "pixelfont";
+		color: rgba(72, 200, 69, 1);
+	}
+
+	.scroll-box_one {
+    /*background: #f4f4f4;*/
+    /*border: 2px solid rgba(0, 0, 0, 0.1);*/
+    width: 600px;
+    height: 350px; 
+    padding: 15px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 3950px;
+    left: 50vw;
+    transform: translateX(-50%);
+    font-size: 1.8em;
+	font-family: "pixelfont";
+	text-align: justify-all;}
+
+	
+
+	.box_two{
+		width: 1000px;
+		position: absolute;
+		left: 50vw;
+		top: 4780px;
+		transform: translateX(-50%);		
+		font-size: 1.8em;
+		font-family: "pixelfont";
+		color: rgba(72, 200, 69, 1);
+	}
+
+	.scroll-box_two {
+    /*background: #f4f4f4;*/
+    /*border: 2px solid rgba(0, 0, 0, 0.1);*/
+    width: 600px;
+    height: 350px; 
+    padding: 15px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 5050px;
+    left: 50vw;
+    transform: translateX(-50%);
+    font-size: 1.8em;
+	font-family: "pixelfont";
+	text-align: justify-all;}
+
+	.b3{
+		opacity: 30%;
+		position: absolute;
+		top: 4600px;
+		width: 1450px;
+		z-index: -1;
+
+
+	}
+
+.box_three{
+		width: 1000px;
+		position: absolute;
+		left: 50vw;
+		top: 6000px;
+		transform: translateX(-50%);		
+		font-size: 1.8em;
+		font-family: "pixelfont";
+		color: rgba(72, 200, 69, 1);
+	}
+
+.scroll-box_three {
+    /*background: #f4f4f4;*/
+    /*border: 2px solid rgba(0, 0, 0, 0.1);*/
+    width: 600px;
+    height: 350px; 
+    padding: 15px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 6200px;
+    left: 50vw;
+    transform: translateX(-50%);
+    font-size: 1.8em;
+	font-family: "pixelfont";
+	text-align: justify-all;
+}
+
+	.b4{
+		opacity: 30%;
+		position: absolute;
+		top: 5800px;
+		width: 1450px;
+		z-index: -1;
+
+
+	}
+.box_four{
+		width: 1000px;
+		position: absolute;
+		left: 50vw;
+		top: 7100px;
+		transform: translateX(-50%);		
+		font-size: 1.8em;
+		font-family: "pixelfont";
+		color: rgba(72, 200, 69, 1);
+		/*text-align: center;*/
+	}
+
+
+.scroll-box_four {
+    /*background: #f4f4f4;*/
+    /*border: 2px solid rgba(0, 0, 0, 0.1);*/
+    width: 600px;
+    height: 350px; 
+    padding: 15px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 7350px;
+    left: 50vw;
+    transform: translateX(-50%);
+    font-size: 1.8em;
+	font-family: "pixelfont";
+	text-align: justify-all;
+}
+
+	.b5{
+		opacity: 30%;
+		position: absolute;
+		top: 6900px;
+		width: 1450px;
+		z-index: -1;
+		margin-bottom: 400px;
+
+
